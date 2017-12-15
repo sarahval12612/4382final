@@ -17,17 +17,17 @@
         controller: 'takeoffCtrl',
         controllerAs: 'vm'
       })
-      .when('/landing/', {
+      .when('/petfinder/', {
         templateUrl: '/landing/landing.view.html',
         controller: 'landingCtrl',
         controllerAs: 'vm'
       })
-      .when('/climb/', {
+      .when('/animalinfo/', {
         templateUrl: '/climb/climb.view.html',
         controller: 'climbCtrl',
         controllerAs: 'vm'
       })
-      .when('/airport/', {
+      .when('/animals/', {
         templateUrl: '/airport/airport.view.html',
         controller: 'airportCtrl',
         controllerAs: 'vm'
