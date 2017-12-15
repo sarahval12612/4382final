@@ -14,7 +14,8 @@
         }*/
         var vm = this;
         console.log(window.location);
-
+        
+        
         vm.content ="Animal Information";
 
         vm.selectedDepartureICAO = "";
